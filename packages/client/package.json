@@ -173,7 +173,7 @@
     "@opentelemetry/instrumentation": "0.206.0",
     "@opentelemetry/resources": "2.1.0",
     "@opentelemetry/sdk-trace-base": "2.8.0",
-    "@opentelemetry/semantic-conventions": "1.37.0",
+    "@opentelemetry/semantic-conventions": "1.41.1",
     "@planetscale/database": "1.19.0",
     "@prisma/adapter-better-sqlite3": "workspace:*",
     "@prisma/adapter-d1": "workspace:*",
