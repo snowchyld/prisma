@@ -9,8 +9,8 @@
   "author": "Pierre-Antoine Mills",
   "license": "Apache-2.0",
   "dependencies": {
-    "@libsql/client": "0.8.1",
-    "@neondatabase/serverless": "0.10.2",
+    "@libsql/client": "0.17.4",
+    "@neondatabase/serverless": "1.1.0",
     "@planetscale/database": "1.19.0",
     "@prisma/adapter-d1": "workspace:*",
     "@prisma/adapter-libsql": "workspace:*",
@@ -25,6 +25,6 @@
     "prisma": "workspace:*"
   },
   "devDependencies": {
-    "wrangler": "4.45.0"
+    "wrangler": "4.103.0"
   }
 }
