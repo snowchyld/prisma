@@ -106,7 +106,7 @@
     }
   },
   "devDependencies": {
-    "@inquirer/prompts": "7.3.3",
+    "@inquirer/prompts": "8.5.2",
     "@libsql/client": "0.8.1",
     "@modelcontextprotocol/sdk": "1.29.0",
     "@libsql/client": "0.17.4",

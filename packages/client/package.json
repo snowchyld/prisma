@@ -164,7 +164,7 @@
     "@faker-js/faker": "10.5.0",
     "@fast-check/jest": "2.0.3",
     "@hono/node-server": "^1.19.14",
-    "@inquirer/prompts": "7.3.3",
+    "@inquirer/prompts": "8.5.2",
     "@jest/create-cache-key-function": "29.7.0",
     "@jest/globals": "30.4.1",
     "@jest/create-cache-key-function": "30.4.1",
