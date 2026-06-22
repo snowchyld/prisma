@@ -99,7 +99,7 @@
     "typescript": "5.4.5",
     "vitest": "4.0.18",
     "wrangler": "3.114.15",
-    "zx": "8.4.1"
+    "zx": "8.8.5"
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write",
