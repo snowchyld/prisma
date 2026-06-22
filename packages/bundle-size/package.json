@@ -25,6 +25,6 @@
     "prisma": "workspace:*"
   },
   "devDependencies": {
-    "wrangler": "3.114.17"
+    "wrangler": "4.103.0"
   }
 }
