@@ -78,7 +78,7 @@
     "is-ci": "4.1.0",
     "jest-junit": "16.0.0",
     "kleur": "4.1.5",
-    "lint-staged": "15.4.3",
+    "lint-staged": "17.0.8",
     "p-map": "4.0.0",
     "p-reduce": "3.0.0",
     "p-retry": "8.0.0",
@@ -98,6 +98,9 @@
     "turbo": "2.9.18",
     "typescript": "5.4.5",
     "vitest": "4.1.9",
+    "vitest": "4.0.18",
+    "wrangler": "3.114.15",
+    "vitest": "4.1.0",
     "wrangler": "4.103.0",
     "zx": "8.8.5"
   },
