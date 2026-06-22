@@ -328,8 +328,8 @@ importers:
   packages/adapter-planetscale:
     dependencies:
       '@planetscale/database':
-        specifier: ^1.19.0
-        version: 1.19.0
+        specifier: ^1.20.1
+        version: 1.20.1
       '@prisma/driver-adapter-utils':
         specifier: workspace:*
         version: link:../driver-adapter-utils
@@ -369,8 +369,8 @@ importers:
         specifier: 1.1.0
         version: 1.1.0
       '@planetscale/database':
-        specifier: 1.19.0
-        version: 1.19.0
+        specifier: 1.20.1
+        version: 1.20.1
       '@prisma/adapter-d1':
         specifier: workspace:*
         version: link:../adapter-d1
@@ -418,8 +418,8 @@ importers:
         specifier: 1.1.0
         version: 1.1.0
       '@planetscale/database':
-        specifier: 1.19.0
-        version: 1.19.0
+        specifier: 1.20.1
+        version: 1.20.1
       '@types/pg':
         specifier: 8.11.11
         version: 8.11.11
@@ -690,8 +690,8 @@ importers:
         specifier: 1.41.1
         version: 1.41.1
       '@planetscale/database':
-        specifier: 1.19.0
-        version: 1.19.0
+        specifier: 1.20.1
+        version: 1.20.1
       '@prisma/adapter-better-sqlite3':
         specifier: workspace:*
         version: link:../adapter-better-sqlite3
@@ -3658,6 +3658,8 @@ packages:
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
+  '@planetscale/database@1.20.1':
+    resolution: {integrity: sha512-DeMEVtQXwyYQDEztj3iuwJ7IdIqYgd68m26gsXpkRJ7rJd0V9Q0cSzQQ32ziwK04nFXuOfu1/RKAXwq6arIZZA==}
   '@pkgr/core@0.3.6':
     resolution: {integrity: sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -10770,6 +10772,7 @@ snapshots:
 
   '@pkgr/core@0.2.9': {}
 
+  '@planetscale/database@1.20.1': {}
   '@pkgr/core@0.3.6': {}
 
   '@planetscale/database@1.19.0': {}
