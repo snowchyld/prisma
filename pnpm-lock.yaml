@@ -335,8 +335,8 @@ importers:
         version: 0.5.0
     devDependencies:
       undici:
-        specifier: 7.4.0
-        version: 7.4.0
+        specifier: 8.5.0
+        version: 8.5.0
 
   packages/adapter-ppg:
     dependencies:
@@ -645,8 +645,8 @@ importers:
         specifier: 10.5.0
         version: 10.5.0
       '@fast-check/jest':
-        specifier: 2.2.0
-        version: 2.2.0(@jest/expect@29.7.0)(@jest/globals@29.7.0)
+        specifier: 2.0.3
+        version: 2.0.3(@jest/expect@29.7.0)(@jest/globals@29.7.0)
       '@hono/node-server':
         specifier: ^1.19.14
         version: 1.19.14(hono@4.12.23)
@@ -930,8 +930,8 @@ importers:
         specifier: 5.4.5
         version: 5.4.5
       undici:
-        specifier: 7.4.0
-        version: 7.4.0
+        specifier: 8.5.0
+        version: 8.5.0
       zx:
         specifier: 8.8.5
         version: 8.8.5
@@ -2663,16 +2663,10 @@ packages:
     resolution: {integrity: sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0, npm: '>=6.14.13'}
 
-  '@faker-js/faker@9.6.0':
-    resolution: {integrity: sha512-3vm4by+B5lvsFPSyep3ELWmZfE3kicDtmemVpuwl1yH7tqtnHdsA6hG8fbXedMVdkzgtvzWoRgjSB4Q+FHnZiw==}
-    engines: {node: '>=18.0.0', npm: '>=9.0.0'}
-
-  '@fast-check/jest@2.2.0':
-    resolution: {integrity: sha512-DXDqX3wOZjuQulN+fOB6Z2I/7ib+ypxyAn1fQdQ2wSiTzAPKYdqaaBQ9lPk2/Zg0wh8sABt40nwW3ZtNhFe9rQ==}
   '@fast-check/jest@2.0.3':
     resolution: {integrity: sha512-3bRtz5kmM2GyLSm9qkDEepeulPaMWZMjjXhOl1G6TCuIghDCPN75pKi2FjXVhkRjTZc6TlMjrcX4f0rTGwM2bQ==}
     peerDependencies:
-      '@fast-check/worker': '>=0.0.7 <0.7.0'
+      '@fast-check/worker': '>=0.0.7 <0.5.0'
       '@jest/expect': '>=28.0.0'
       '@jest/globals': '>=25.5.2'
     peerDependenciesMeta:
@@ -8081,9 +8075,9 @@ packages:
     resolution: {integrity: sha512-cRZYrTDwWznlnRiPjggAGxZXanty6M8RV1ff8Wm4LWXBp7/IG8v5DnOm74DtUBp9OONpK75YlPnIjQqX0dBDtA==}
     engines: {node: '>=20.18.1'}
 
-  undici@7.4.0:
-    resolution: {integrity: sha512-PUQM3/es3noM24oUn10u3kNNap0AbxESOmnssmW+dOi9yGwlUSi5nTNYl3bNbTkWOF8YZDkx2tCmj9OtQ3iGGw==}
-    engines: {node: '>=20.18.1'}
+  undici@8.5.0:
+    resolution: {integrity: sha512-xamtWoB1EshgjpmlXd7GGm2VfdDtw1+rD8uhry8pSNW3If6S8E0m2T2+orSKeZXEn/aPJMviCpDBA65WJt8zhg==}
+    engines: {node: '>=22.19.0'}
 
   unenv@2.0.0-rc.24:
     resolution: {integrity: sha512-i7qRCmY42zmCwnYlh9H2SvLEypEFGye5iRmEMKjcGi7zk9UquigRjFtTLz0TYqr0ZGLZhaMHl/foy1bZR+Cwlw==}
@@ -9153,10 +9147,10 @@ snapshots:
 
   '@faker-js/faker@8.4.1': {}
 
-  '@fast-check/jest@2.2.0(@jest/expect@29.7.0)(@jest/globals@29.7.0)':
+  '@fast-check/jest@2.0.3(@jest/expect@29.7.0)(@jest/globals@29.7.0)':
     dependencies:
       '@jest/globals': 29.7.0
-      fast-check: 4.3.0
+      fast-check: 3.23.2
     optionalDependencies:
       '@jest/expect': 29.7.0
 
@@ -15154,7 +15148,7 @@ snapshots:
 
   undici@7.28.0: {}
 
-  undici@7.4.0: {}
+  undici@8.5.0: {}
 
   unenv@2.0.0-rc.24:
     dependencies:
