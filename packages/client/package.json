@@ -242,7 +242,7 @@
     "memfs": "4.17.2",
     "mssql": "11.0.1",
     "new-github-issue-url": "0.2.1",
-    "p-retry": "4.6.2",
+    "p-retry": "8.0.0",
     "pg": "8.14.1",
     "resolve": "1.22.10",
     "simple-statistics": "7.8.8",
