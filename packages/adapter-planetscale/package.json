@@ -36,7 +36,7 @@
   "license": "Apache-2.0",
   "sideEffects": false,
   "dependencies": {
-    "@planetscale/database": "^1.19.0",
+    "@planetscale/database": "^1.20.1",
     "@prisma/driver-adapter-utils": "workspace:*",
     "async-mutex": "0.5.0"
   },
