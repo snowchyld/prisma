@@ -35,7 +35,7 @@
     "@prisma/json-protocol": "workspace:*",
     "klona": "2.0.6",
     "nanoid": "5.1.5",
-    "ulid": "3.0.0",
+    "ulid": "3.0.2",
     "uuid": "14.0.0"
   },
   "devDependencies": {
