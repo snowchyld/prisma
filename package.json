@@ -78,7 +78,7 @@
     "is-ci": "4.1.0",
     "jest-junit": "16.0.0",
     "kleur": "4.1.5",
-    "lint-staged": "15.4.3",
+    "lint-staged": "17.0.8",
     "p-map": "4.0.0",
     "p-reduce": "3.0.0",
     "p-retry": "8.0.0",
