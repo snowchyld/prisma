@@ -1601,8 +1601,8 @@ importers:
         specifier: 7.0.0
         version: 7.0.0
       fp-ts:
-        specifier: 2.16.9
-        version: 2.16.9
+        specifier: 2.16.11
+        version: 2.16.11
       fs-extra:
         specifier: 11.3.0
         version: 11.3.0
@@ -1745,8 +1745,8 @@ importers:
         specifier: 8.0.1
         version: 8.0.1
       fp-ts:
-        specifier: 2.16.9
-        version: 2.16.9
+        specifier: 2.16.11
+        version: 2.16.11
       fs-jetpack:
         specifier: 5.1.0
         version: 5.1.0
@@ -5868,8 +5868,8 @@ packages:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
 
-  fp-ts@2.16.9:
-    resolution: {integrity: sha512-+I2+FnVB+tVaxcYyQkHUq7ZdKScaBlX53A41mxQtpIccsfyv8PzdzP7fzp2AY832T4aoK6UZ5WRX/ebGd8uZuQ==}
+  fp-ts@2.16.11:
+    resolution: {integrity: sha512-LaI+KaX2NFkfn1ZGHoKCmcfv7yrZsC3b8NtWsTVQeHkq4F27vI5igUuO53sxqDEa2gNQMHFPmpojDw/1zmUK7w==}
 
   fresh@2.0.0:
     resolution: {integrity: sha512-Rx/WycZ60HOaqLKAi6cHRKKI7zxWbJ31MhntmtwMoaTeF7XFH9hhBp8vITaMidfljRQ6eYWCKkaTK+ykVJHP2A==}
@@ -12903,7 +12903,7 @@ snapshots:
 
   forwarded@0.2.0: {}
 
-  fp-ts@2.16.9: {}
+  fp-ts@2.16.11: {}
 
   fresh@2.0.0: {}
 
