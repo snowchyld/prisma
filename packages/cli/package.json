@@ -107,11 +107,11 @@
   },
   "devDependencies": {
     "@inquirer/prompts": "7.3.3",
-    "@libsql/client": "0.8.1",
+    "@libsql/client": "0.17.4",
     "@modelcontextprotocol/sdk": "1.13.2",
     "@opentelemetry/api": "1.9.0",
     "@opentelemetry/context-async-hooks": "2.1.0",
-    "@opentelemetry/sdk-trace-base": "2.1.0",
+    "@opentelemetry/sdk-trace-base": "2.8.0",
     "@prisma/adapter-libsql": "workspace:*",
     "@prisma/client": "workspace:*",
     "@prisma/client-generator-registry": "workspace:*",
@@ -143,7 +143,7 @@
     "execa": "5.1.1",
     "fs-extra": "11.3.0",
     "get-port-please": "3.2.0",
-    "get-tsconfig": "4.10.0",
+    "get-tsconfig": "4.14.0",
     "jest": "29.7.0",
     "jest-junit": "16.0.0",
     "kleur": "4.1.5",
@@ -187,7 +187,7 @@
     "@prisma/engines": "workspace:*",
     "@prisma/studio-core": "0.27.3",
     "mysql2": "3.15.3",
-    "postgres": "3.4.7"
+    "postgres": "3.4.9"
   },
   "peerDependencies": {
     "better-sqlite3": ">=9.0.0",
