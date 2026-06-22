@@ -864,8 +864,8 @@ importers:
         specifier: 16.0.0
         version: 16.0.0
       jest-serializer-ansi-escapes:
-        specifier: 4.0.0
-        version: 4.0.0
+        specifier: 5.0.0
+        version: 5.0.0
       jest-snapshot:
         specifier: 29.7.0
         version: 29.7.0
@@ -6457,9 +6457,9 @@ packages:
     resolution: {integrity: sha512-gUnLjgwdGqW7B4LvOIkbKs9WGbn+QLqRQQ9juC6HndeDiezIwhDP+mhMwHWCEcfQ5RUXa6OPnFF8BJh5xegwwQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  jest-serializer-ansi-escapes@4.0.0:
-    resolution: {integrity: sha512-WrxiW6Fz9yK02vmVyqtpUWTG6b2Sqz2X0+wJUe4SOgqBcTAFha4GRBuKxqg8P1OAMstBfZ+dnEu/WYHFztTatQ==}
-    engines: {node: '>=18'}
+  jest-serializer-ansi-escapes@5.0.0:
+    resolution: {integrity: sha512-T/5l1imaGENTXr0Qn2g7uodVqVG/df7UpcDNz5PmsLGWLOXa7vf0wXkSW1Ec8CTzxFnocm1vNqjPbC6fZs3OmQ==}
+    engines: {node: '>=20'}
 
   jest-snapshot@29.7.0:
     resolution: {integrity: sha512-Rm0BMWtxBcioHr1/OX5YCP8Uov4riHvKPknOGs804Zg9JGZgmIBkbtlxJC/7Z4msKYVbIJtfU+tKb8xlYNfdkw==}
@@ -7494,9 +7494,9 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  pretty-ansi@3.0.0:
-    resolution: {integrity: sha512-8FdI7yD+nCdMCbjkapyOwKTBVBtX1S6eLFjZA+gNcnRJQFCqZJgAVKjvwdBsyClOa9DWlr5sin9isAWDvVMpew==}
-    engines: {node: '>=18'}
+  pretty-ansi@4.0.0:
+    resolution: {integrity: sha512-e+hWevDKx5BWF9nGpWssm6rSTynBbD9aIvuySBSpormiLR3pmR+ey2DVUILVHcKgHEHLm5lEzIHLEtyhO8oEdw==}
+    engines: {node: '>=20'}
 
   pretty-format@29.7.0:
     resolution: {integrity: sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ==}
@@ -13678,9 +13678,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jest-serializer-ansi-escapes@4.0.0:
+  jest-serializer-ansi-escapes@5.0.0:
     dependencies:
-      pretty-ansi: 3.0.0
+      pretty-ansi: 4.0.0
 
   jest-snapshot@29.7.0:
     dependencies:
@@ -14800,7 +14800,7 @@ snapshots:
 
   prettier@3.6.2: {}
 
-  pretty-ansi@3.0.0: {}
+  pretty-ansi@4.0.0: {}
 
   pretty-format@29.7.0:
     dependencies:
