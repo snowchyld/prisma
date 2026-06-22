@@ -335,8 +335,8 @@ importers:
         version: 0.5.0
     devDependencies:
       undici:
-        specifier: 7.4.0
-        version: 7.4.0
+        specifier: 8.5.0
+        version: 8.5.0
 
   packages/adapter-ppg:
     dependencies:
@@ -645,8 +645,8 @@ importers:
         specifier: 10.5.0
         version: 10.5.0
       '@fast-check/jest':
-        specifier: 2.2.0
-        version: 2.2.0(@jest/expect@29.7.0)(@jest/globals@29.7.0)
+        specifier: 2.0.3
+        version: 2.0.3(@jest/expect@29.7.0)(@jest/globals@29.7.0)
       '@hono/node-server':
         specifier: ^1.19.14
         version: 1.19.14(hono@4.12.23)
@@ -930,8 +930,8 @@ importers:
         specifier: 5.4.5
         version: 5.4.5
       undici:
-        specifier: 7.4.0
-        version: 7.4.0
+        specifier: 8.5.0
+        version: 8.5.0
       zx:
         specifier: 8.8.5
         version: 8.8.5
@@ -1410,8 +1410,8 @@ importers:
         specifier: 3.2.0
         version: 3.2.0
       terminal-link:
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 4.0.0
+        version: 4.0.0
       ts-pattern:
         specifier: 5.6.2
         version: 5.6.2
@@ -1661,8 +1661,8 @@ importers:
         specifier: 3.2.0
         version: 3.2.0
       terminal-link:
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 4.0.0
+        version: 4.0.0
       tmp:
         specifier: 0.2.3
         version: 0.2.3
@@ -2663,16 +2663,10 @@ packages:
     resolution: {integrity: sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0, npm: '>=6.14.13'}
 
-  '@faker-js/faker@9.6.0':
-    resolution: {integrity: sha512-3vm4by+B5lvsFPSyep3ELWmZfE3kicDtmemVpuwl1yH7tqtnHdsA6hG8fbXedMVdkzgtvzWoRgjSB4Q+FHnZiw==}
-    engines: {node: '>=18.0.0', npm: '>=9.0.0'}
-
-  '@fast-check/jest@2.2.0':
-    resolution: {integrity: sha512-DXDqX3wOZjuQulN+fOB6Z2I/7ib+ypxyAn1fQdQ2wSiTzAPKYdqaaBQ9lPk2/Zg0wh8sABt40nwW3ZtNhFe9rQ==}
   '@fast-check/jest@2.0.3':
     resolution: {integrity: sha512-3bRtz5kmM2GyLSm9qkDEepeulPaMWZMjjXhOl1G6TCuIghDCPN75pKi2FjXVhkRjTZc6TlMjrcX4f0rTGwM2bQ==}
     peerDependencies:
-      '@fast-check/worker': '>=0.0.7 <0.7.0'
+      '@fast-check/worker': '>=0.0.7 <0.5.0'
       '@jest/expect': '>=28.0.0'
       '@jest/globals': '>=25.5.2'
     peerDependenciesMeta:
@@ -3425,6 +3419,7 @@ packages:
   '@opentelemetry/semantic-conventions@1.41.1':
     resolution: {integrity: sha512-/UhIkaZgPutTFmQ7RnIJGgDXZmtEJ7Dvi86xNTFWcnRxVRNk/aotsqDJYeEvDP+FSMB2SdW+pQzNMcWP0rwuNA==}
     engines: {node: '>=14'}
+
   '@oxc-project/types@0.133.0':
     resolution: {integrity: sha512-KzkdCd6Uxqnf6l3HOw1xfatAlUURA0g14cvBYFyJ5SaNOQbOUvBr9PKArcPcrNIeRsBdgcUzOGrhKveVpvOIGA==}
 
@@ -5727,10 +5722,6 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  has-flag@5.0.1:
-    resolution: {integrity: sha512-CsNUt5x9LUdx6hnk/E2SZLsDyvfqANZSUq4+D3D8RzDJ2M+HDTIkF60ibS1vHaK55vzgiZw1bEPFG9yH7l33wA==}
-    engines: {node: '>=12'}
-
   has-symbols@1.1.0:
     resolution: {integrity: sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==}
     engines: {node: '>= 0.4'}
@@ -7806,9 +7797,9 @@ packages:
     resolution: {integrity: sha512-RpsAZlpWcDwOPQA22aCH4J0t7L8JmAvsCxfOSEwm7cQs3LshN36QaTkwd70DnBOXDWGssw2eUoc8CaRWT0XunA==}
     engines: {node: '>=8'}
 
-  supports-hyperlinks@4.5.0:
-    resolution: {integrity: sha512-ZW2OvfeCXrNTbLakPUzjQG922EeGCOteFSVoek5DKStTh898wf7zgtuFlzQN8HfZCxC3Eh02yJVrRW51hADf+w==}
-    engines: {node: '>=20'}
+  supports-hyperlinks@3.2.0:
+    resolution: {integrity: sha512-zFObLMyZeEwzAoKCyu1B91U79K2t7ApXuQfo8OuxwXLDgcKxuwM+YvcbIhm6QWqz7mHUH1TVytR1PwVVjEuMig==}
+    engines: {node: '>=14.18'}
 
   supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
@@ -7871,9 +7862,9 @@ packages:
     resolution: {integrity: sha512-d79HhZya5Djd7am0q+W4RTsSU+D/aJzM+4Y4AGJGuGlgM2L6sx5ZvOYTmZjqPhrDrV6xJTtRSm1JCLj6V6LHLQ==}
     engines: {node: '>=14.16'}
 
-  terminal-link@5.0.0:
-    resolution: {integrity: sha512-qFAy10MTMwjzjU8U16YS4YoZD+NQLHzLssFMNqgravjbvIPNiqkGFR4yjhJfmY9R5OFU7+yHxc6y+uGHkKwLRA==}
-    engines: {node: '>=20'}
+  terminal-link@4.0.0:
+    resolution: {integrity: sha512-lk+vH+MccxNqgVqSnkMVKx4VLJfnLjDBGzH16JVZjKE2DoxP57s6/vt6JmXV5I3jBcfGrxNrYtC+mPtU7WJztA==}
+    engines: {node: '>=18'}
 
   terser-webpack-plugin@5.3.10:
     resolution: {integrity: sha512-BKFPWlPDndPs+NGGCr1U59t0XScL5317Y0UReNrHaw9/FwhPENlq6bfgs+4yPfyP51vqC1bQ4rp1EfXW5ZSH9w==}
@@ -8101,9 +8092,9 @@ packages:
     resolution: {integrity: sha512-cRZYrTDwWznlnRiPjggAGxZXanty6M8RV1ff8Wm4LWXBp7/IG8v5DnOm74DtUBp9OONpK75YlPnIjQqX0dBDtA==}
     engines: {node: '>=20.18.1'}
 
-  undici@7.4.0:
-    resolution: {integrity: sha512-PUQM3/es3noM24oUn10u3kNNap0AbxESOmnssmW+dOi9yGwlUSi5nTNYl3bNbTkWOF8YZDkx2tCmj9OtQ3iGGw==}
-    engines: {node: '>=20.18.1'}
+  undici@8.5.0:
+    resolution: {integrity: sha512-xamtWoB1EshgjpmlXd7GGm2VfdDtw1+rD8uhry8pSNW3If6S8E0m2T2+orSKeZXEn/aPJMviCpDBA65WJt8zhg==}
+    engines: {node: '>=22.19.0'}
 
   unenv@2.0.0-rc.24:
     resolution: {integrity: sha512-i7qRCmY42zmCwnYlh9H2SvLEypEFGye5iRmEMKjcGi7zk9UquigRjFtTLz0TYqr0ZGLZhaMHl/foy1bZR+Cwlw==}
@@ -9173,10 +9164,10 @@ snapshots:
 
   '@faker-js/faker@8.4.1': {}
 
-  '@fast-check/jest@2.2.0(@jest/expect@29.7.0)(@jest/globals@29.7.0)':
+  '@fast-check/jest@2.0.3(@jest/expect@29.7.0)(@jest/globals@29.7.0)':
     dependencies:
       '@jest/globals': 29.7.0
-      fast-check: 4.3.0
+      fast-check: 3.23.2
     optionalDependencies:
       '@jest/expect': 29.7.0
 
@@ -10056,6 +10047,7 @@ snapshots:
   '@opentelemetry/semantic-conventions@1.37.0': {}
 
   '@opentelemetry/semantic-conventions@1.41.1': {}
+
   '@oxc-project/types@0.133.0': {}
 
   '@oxc-resolver/binding-darwin-arm64@1.10.2':
@@ -12529,8 +12521,6 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  has-flag@5.0.1: {}
-
   has-symbols@1.1.0: {}
 
   has-tostringtag@1.0.2:
@@ -14894,10 +14884,10 @@ snapshots:
       has-flag: 4.0.0
       supports-color: 7.2.0
 
-  supports-hyperlinks@4.5.0:
+  supports-hyperlinks@3.2.0:
     dependencies:
-      has-flag: 5.0.1
-      supports-color: 10.2.2
+      has-flag: 4.0.0
+      supports-color: 7.2.0
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
@@ -14985,10 +14975,10 @@ snapshots:
       type-fest: 2.19.0
       unique-string: 3.0.0
 
-  terminal-link@5.0.0:
+  terminal-link@4.0.0:
     dependencies:
       ansi-escapes: 7.3.0
-      supports-hyperlinks: 4.5.0
+      supports-hyperlinks: 3.2.0
 
   terser-webpack-plugin@5.3.10(@swc/core@1.11.5)(esbuild@0.25.5)(webpack@5.92.1(@swc/core@1.11.5)(esbuild@0.25.5)):
     dependencies:
@@ -15203,7 +15193,7 @@ snapshots:
 
   undici@7.28.0: {}
 
-  undici@7.4.0: {}
+  undici@8.5.0: {}
 
   unenv@2.0.0-rc.24:
     dependencies:
