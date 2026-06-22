@@ -210,7 +210,7 @@
     "@prisma/sqlcommenter-trace-context": "workspace:*",
     "@prisma/ts-builders": "workspace:*",
     "@snaplet/copycat": "6.0.0",
-    "@swc-node/register": "1.10.9",
+    "@swc-node/register": "1.11.1",
     "@swc/core": "1.11.5",
     "@swc/jest": "0.2.37",
     "@timsuchanek/copy": "1.4.5",
